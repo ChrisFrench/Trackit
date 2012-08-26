@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<menu>
+   <link>
+       <name>Items</name>
+       <url>index.php?option=com_trackit&#38;view=items</url>
+   </link>
+</menu>
