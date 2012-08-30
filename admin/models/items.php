@@ -196,7 +196,7 @@ class TrackitModelItems extends TrackitModelBase
 		$name = $db->quote($name);
 		$url = $db->quote($url);
 		
-        $query = $db->getQuery(true);
+         $query = new DSCQuery;
         $query->select('id');
         $query->from('#__trackit_items AS tbl');
        // $query->leftJoin('#__trackit_scopes AS s ON tbl.scope_id = s.scope_id');
